@@ -8,6 +8,6 @@ import { MatTabChangeEvent } from '@angular/material/tabs';
 })
 export class ExempleComponent {
   log(val: MatTabChangeEvent) {
-    console.log(val);
+    console.log(val.tab.textLabel);
   }
 }
